@@ -1,0 +1,55 @@
+.card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.line {
+  width: 100%;
+  margin: 16px 0;
+  border-bottom: 1px solid #a0a0a0;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  background-color: #eeeeee;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #187cff;
+  font: 400 18px "Roboto", sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0b3ca5;
+  }
+}
+
+.close_btn {
+  margin-left: auto;
+  display: grid;
+  place-content: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.3);
+  }
+}

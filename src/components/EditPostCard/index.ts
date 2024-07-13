@@ -1,0 +1,1 @@
+export { EditPostCard } from "./EditPostCard";

@@ -1,0 +1,87 @@
+.component {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px 0px rgba(199, 199, 199, 1);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f6f7;
+}
+
+.title {
+  padding: 10px 20px;
+  font: 500 16px "Roboto", sans-serif;
+}
+
+.close_btn {
+  margin-left: auto;
+  padding-right: 18px;
+  display: grid;
+  place-content: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.3);
+  }
+}
+
+.textarea_wrap {
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.textarea {
+  width: 100%;
+  padding: 12px;
+  display: inline-block;
+  background-color: #eeeeee;
+  font: 400 16px/1.5 "Roboto", sans-serif;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.actions_wrap {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.action {
+  width: calc(50% - 20px);
+  padding: 5px 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f5f6f7;
+  border-radius: 20px;
+}
+
+.save_btn_wrap {
+  padding: 10px 20px;
+  background-color: #f5f6f7;
+}
+.save_btn {
+  padding: 10px;
+  background-color: #187cff;
+  font: 400 18px "Roboto", sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0b3ca5;
+  }
+}
